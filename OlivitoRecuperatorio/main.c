@@ -19,12 +19,12 @@ void mostrarNotebooks(eNotebook vec[], int tam);
 int main()
 {
     eNotebook lista[TAM]={{100,"Asus","AMD",32500,0},{101,"HP","Intel",45000,0},{102,"HP","AMD",32000,0},{103,"Lenovo","Intel",45000,0}};
-    printf("%.2f",calcularIva(100));
+    printf("%.2f\n\n",calcularIva(100));
     mostrarNotebooks(lista,TAM);
     return 0;
 }
 float calcularIva(float precio){
-float precioIva=precio*0.89;
+float precioIva=precio*0.21;
 
 return precioIva;
 }
